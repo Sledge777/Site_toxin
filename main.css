@@ -24,14 +24,16 @@ header {
     margin: 12px 0px 12px 5px;
     height:12.95px ;
     width: 53.19px;
+    
 }
 .first_ul{
     display: flex;
     list-style-type: none;
     width: 446px;
     height: 21px;
-    margin-left: 391px;
+    margin-left: 351px;
     margin-top: 26px;
+    margin-right: 0;
 
 }
 .li {
@@ -41,10 +43,64 @@ header {
     line-height: 17.07px;
 }
 .li:not(:last-child) {
-    padding-right:10px;
+    padding-right:15px;
 }
 main {
     background-image: url("img/bg_ld.jpg");
     height: 830px;
     width: 1440px;
+}
+.material-symbols-outlined {
+    align-self: center;
+    margin-left: -10px;
+    margin-right: 10px;
+    color:#1F204180 ;
+}
+.button {
+    width: 87px;
+    height: 34px;
+    margin-top: 18px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: 2px solid ;
+    border-color: rgb(139,164,249);
+    border-color: linear-gradient(0deg, rgba(139,164,249,1) 0%, rgba(188,156,255,1) 100%);
+    color:rgb(139,164,249);
+    color:linear-gradient(0deg, rgba(139,164,249,1) 0%, rgba(188,156,255,1) 100%);
+    margin-right: 20px;
+}
+.second_button {
+    width: 196px;
+    height: 34px;
+    margin-top: 18px;
+    background-color:rgb(139,164,249);
+    background-color:linear-gradient(0deg, rgba(139,164,249,1) 0%, rgba(188,156,255,1) 100%);
+    border-radius: 20px;
+    border: 2px solid ;
+    border-color: rgb(139,164,249);
+    border-color: linear-gradient(0deg, rgba(139,164,249,1) 0%, rgba(188,156,255,1) 100%);
+    color: white;
+}
+footer {
+    background-color: #FFFFFF;
+    height: 443px;
+    width: 1440px;
+}
+.data {
+    display:flex;
+    height: 100%;
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#1F2041BF;
+}
+.first_box {
+    width: 260px;
+    height: 132px;
+}
+.second_logo_box {
+    height: 40px;
+    width: 105px;
 }
