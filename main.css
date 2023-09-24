@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat&family=Mooli&family=Oswald&family=Tillana:wght@500;600&display=swap');
+body {
+    margin:0;
+    padding: 0;
+    background-color: black;
+}
+header {
+    display: flex;
+    width: 1440px;
+    height: 70px;
+    background-color: #FFFFFF;
+}
+.logo_box {
+    height: 40px;
+    width: 105px;
+    margin-left: 140px;
+    margin-top: 15px;
+}
+.logo {
+    height: 40px;
+    width: 40px;
+}
+.logo_text {
+    margin: 12px 0px 12px 5px;
+    height:12.95px ;
+    width: 53.19px;
+}
+.first_ul{
+    display: flex;
+    list-style-type: none;
+    width: 446px;
+    height: 21px;
+    margin-left: 391px;
+    margin-top: 26px;
+
+}
+.li {
+    color: #1F204180;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17.07px;
+}
+.li:not(:last-child) {
+    padding-right:10px;
+}
+main {
+    background-image: url("img/bg_ld.jpg");
+    height: 830px;
+    width: 1440px;
+}
