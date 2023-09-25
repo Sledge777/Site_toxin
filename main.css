@@ -38,7 +38,7 @@ header {
 
 }
 .li {
-    color: #1F204180;
+    color: rgba(31, 32, 65, 0.5);
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 17.07px;
@@ -96,7 +96,7 @@ footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 24px;
-    color:#1F2041BF;
+    color:rgba(31, 32, 65, 0.75);
 }
 .first_box {
     width: 260px;
@@ -112,7 +112,7 @@ footer {
 }
 .nav {
     list-style-type: none;
-    color: #1F204180;
+    color: rgba(31, 32, 65, 0.5);
     padding: 0;
     margin: 0;
     line-height: 17px;
@@ -125,6 +125,7 @@ footer {
     font-weight: bold;
     font-size: 12px;
     line-height: 14px;
+    color: rgba(31, 32, 65, 1);
 }
 .second_footer_nav {
     height:168px;
@@ -149,19 +150,47 @@ footer {
 }
 ::-webkit-input-placeholder {
     padding-left: 15px;
-    }
-    
-    :-moz-placeholder { 
-        padding-left: 15px;
-    }
-    
-    ::-moz-placeholder {  
-        padding-left: 15px;
-    }
-    
-    :-ms-input-placeholder {  
-        padding-left: 15px;
-    }
-    .data div {
-        margin-right: 50px;
-    }
+}  
+:-moz-placeholder { 
+    padding-left: 15px;
+} 
+::-moz-placeholder {  
+    padding-left: 15px;
+} 
+:-ms-input-placeholder {  
+    padding-left: 15px;
+}
+.data div {
+    margin-right: 50px;
+}
+.sub_footer {
+    display: flex;
+    box-shadow: 0px -1px 0px 0px rgba(31, 32, 65, 0.1);
+    height: 70px;
+    margin-top: 100px;
+}
+.sub_footer p {
+    margin-left: 139px;
+    align-self: center;
+}
+.sub_footer svg {
+    margin-left: 20px;
+    align-self: center;
+}
+.sub_footer div {
+    display: flex;
+    margin-left: 700px;
+}
+.box_card {
+    height: 374px;
+    width: 380px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+.box_card .second_button {
+    width: 320px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
