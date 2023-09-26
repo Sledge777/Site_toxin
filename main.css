@@ -35,7 +35,6 @@ header {
     margin-left: 351px;
     margin-top: 26px;
     margin-right: 0;
-
 }
 .li {
     color: rgba(31, 32, 65, 0.5);
@@ -47,7 +46,7 @@ header {
     padding-right:15px;
 }
 main {
-    background-image: url("img/bg_ld.jpg");
+    background-image: url('img/bg_ld.jpg');
     background-size: cover;
     height: 830px;
     width: 1440px;
