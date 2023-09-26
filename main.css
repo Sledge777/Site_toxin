@@ -70,6 +70,10 @@ main {
     color:rgb(139,164,249);
     color:linear-gradient(0deg, rgba(139,164,249,1) 0%, rgba(188,156,255,1) 100%);
     margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
 }
 .second_button {
     width: 196px;
@@ -152,18 +156,22 @@ footer {
 ::-webkit-input-placeholder {
     padding-left: 15px;
     color:rgba(31, 32, 65, 0.25);
+    font-family: 'Montserrat', sans-serif;
 }  
 :-moz-placeholder { 
     padding-left: 15px;
     color:rgba(31, 32, 65, 0.25);
+    font-family: 'Montserrat', sans-serif;
 } 
 ::-moz-placeholder {  
     padding-left: 15px;
     color:rgba(31, 32, 65, 0.25);
+    font-family: 'Montserrat', sans-serif;
 } 
 :-ms-input-placeholder {  
     padding-left: 15px;
     color:rgba(31, 32, 65, 0.25);
+    font-family: 'Montserrat', sans-serif;
 }
 .data div {
     margin-right: 50px;
@@ -187,13 +195,19 @@ footer {
     margin-left: 700px;
 }
 .box_card {
-    height: 374px;
-    width: 380px;
+    height: 274px;
+    width: 320px;
     background-color: #FFFFFF;
     border-radius: 4px;
     margin-left: 120px;
     margin-top: 100px;
     position: absolute;
+    padding: 40px 30px 40px 30px;
+}
+.container {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px
 }
 .box_card p {
     margin: 0;
@@ -208,15 +222,71 @@ form{
     border:none;
     background: #FFFFFF;
     color: #fff;
-    border-radius: 25px;
     cursor: pointer;
     position: absolute; 
     right: 0;
     top:0;
     margin: 8px 15px;
-    width: 10px;
+    width: 0;
+    height: 0;
 }
 .btn .material-symbols-outlined {
     color:rgb(139,164,249);
     color:linear-gradient(0deg, rgba(139,164,249,1) 0%, rgba(188,156,255,1) 100%);
+}
+.title {
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(31, 32, 65, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 320px;
+    height: 69px;
+    margin: 0;
+    padding: 0;
+}
+.arriving {
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 4px;
+    width: 150px;
+    height: 44px;
+}
+.box_card .material-symbols-outlined {
+    color:rgba(31, 32, 65, 0.5);
+}
+.box_card ::placeholder {
+    color: rgba(31, 32, 65, 0.75);
+    font-family:'Montserrat', sans-serif ;
+}
+.box_card .mail_button{
+    border: 1px solid rgba(31, 32, 65, 0.25)
+}
+#marg{
+    margin-top: 15px;
+}
+.box_card .mail_button {
+    width: 320px;
+}
+#marg .btn {
+    margin: 24px 15px;
+    
+}
+#number .second_button {
+    width: 320px;
+    height: 44px;
+}
+#number .btn {
+    margin: 28px 15px;
+    background-color:rgb(139,164,249);
+    background-color:linear-gradient(0deg, rgba(139,164,249,1) 0%, rgba(188,156,255,1) 100%);
+}
+#number .material-symbols-outlined{
+    color: #FFFFFF;
+}
+#number {
+    
+   
+}
+.box_card .paragraph {
+    margin-bottom: 5px;
 }

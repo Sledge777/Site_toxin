@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>Document</title>
+    <title>Landing page</title>
 </head>
 <body>
     <header class="header">
@@ -51,11 +51,35 @@
     </header>
     <main>
         <div class="box_card"> 
-            <p>Найдём номера под ваши пожелания</p>
-            <div></div>
+            <p class="title">Найдём номера под ваши пожелания</p>
+            <div class="container">
+                <div>
+                    <p class="paragraph">ПРИБЫТИЕ</p>
+                    <form>
+                        <input type="search" class="arriving" placeholder="ДД.ММ.ГГГГ">
+                        <button type="button" class="btn"><span class="material-symbols-outlined">expand_more</span></button>
+                    </form>
+                </div>
+                <div>
+                    <p class="paragraph">ВЫЕЗД</p>
+                    <form>
+                        <input type="search" class="arriving" placeholder="ДД.ММ.ГГГГ">
+                        <button type="submit" class="btn"><span class="material-symbols-outlined">expand_more</span></button>
+                    </form>
+                </div>
+            </div>
+            <div id="marg">
+                <form>
+                    <p class="paragraph">ГОСТИ</p>
+                    <input type="search" class="mail_button" placeholder="Сколько гостей">
+                    <button type="submit" class="btn"><span class="material-symbols-outlined">expand_more</span></button>
+                </form>
+            </div>
             <div>
-                <p></p>
-                <button></button>
+                <form id="number">
+                    <button type="button" class="second_button">ПОДОБРАТЬ НОМЕР</button>
+                    <button  type="submit" class="btn"><span class="material-symbols-outlined">arrow_forward</span></button>
+                </form>
             </div>
         </div>
         
@@ -123,7 +147,7 @@
             <div class="mail">
                 <p class="paragraph">ПОДПИСКА</p>
                 <p class="text">Получайте специальные предложения и новости сервиса</p>
-                <form class="form">
+                <form>
                     <input class="mail_button" type="search" placeholder="Email">
                     <button class="btn" type="submit"><span class="material-symbols-outlined">arrow_forward</span></button>
                 </form>
