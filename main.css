@@ -102,6 +102,19 @@ footer {
     font-size: 14px;
     line-height: 24px;
     color:rgba(31, 32, 65, 0.75);
+    margin: 0;
+    padding: 0;
+}
+.text_box {
+    height: 48px;
+    width:100%;
+    text-align: right;
+    position: absolute;
+    margin-top: 760px;
+    margin-left: 1100px;
+}
+.text_box .text{
+    width: 297px;
 }
 .first_box {
     width: 260px;
@@ -143,7 +156,6 @@ footer {
 .mail {
     width: 260px;
     height: 100%;
-
 }
 .mail_button {
     width: 260px;
@@ -268,8 +280,7 @@ form{
     width: 320px;
 }
 #marg .btn {
-    margin: 24px 15px;
-    
+    margin: 29px 15px;
 }
 #number .second_button {
     width: 320px;
@@ -282,10 +293,6 @@ form{
 }
 #number .material-symbols-outlined{
     color: #FFFFFF;
-}
-#number {
-    
-   
 }
 .box_card .paragraph {
     margin-bottom: 5px;
